@@ -2,25 +2,38 @@ body {
     border: solid black 0.2rem;
     display: grid;
     grid-template-columns: 0.5fr 1fr;
-    grid-template-rows: 1fr 2fr 0.5fr;
+    grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-row-gap: 0px; 
+    background-image: url(../img/BG.png);
+}
 
-
-  }
-  
   header { 
     grid-area: 1 / 1 / 2 / 3;
-    background-color: #0123FF;
+    background-color: #00138C;
     color: white;
     text-transform: uppercase;
-    font-family: 'Days One', sans-serif;
+
     text-align: center;
     border-bottom: solid black 0.2rem;
+
   }
 
-  h1 {
+  h1,
+  h2 {
     margin: 0;
+    text-align: center;
+    font-family: 'Days One', sans-serif;
+  }
+
+  p {
+    font-family: 'PT Sans', sans-serif;
+    margin: 1rem;
+border: solid;
+padding: 1rem;
+font-size: larger;
+background-color: white;
+line-height: initial;
   }
 
   span {
@@ -40,16 +53,15 @@ body {
     color: #FCB8FF;
     font-size: small;
   }
-
-
-
+  nav {
+    border: solid;
+  }
   .nav {
     grid-area: 2 / 1 / 3 / 2;
-    border-right: solid;
-    border-left: solid;
     font-family: 'Russo One', sans-serif;
-    background-color: #B5FD1D;
-    margin-left: 2rem;
+    margin-left: 0.4rem;
+    margin-top: 2rem;
+
   }
 
   a {
@@ -64,13 +76,44 @@ body {
 
   li {
     padding: 1rem;
+    text-align: center;
+    background-color: white;
+  }
+
+  li:hover {
+    background-color: #B5FD1D;
   }
 
   .list__white {
+    background-color: #B5FD1D;
+  }
+
+  .list__white:hover {
     background-color: white;
   }
    
   
   .main {
-     grid-area: 2 / 2 / 3 / 3;
-   }
+    grid-area: 2 / 2 / 3 / 3;
+    }
+
+
+    .profil__image {
+    width: 10rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+
+
+  }
+
+
+  .footer { 
+    grid-area: 3 / 1 / 4 / 3; 
+    background-color: #00138C;
+    border-top: solid black;
+    color: #B5FD1D;
+    padding-top: 1rem;
+  }
+
