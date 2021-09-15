@@ -252,6 +252,7 @@ text-align: center;
             }
       }
 
+
       .dark {
         background-image: url(../img/BGdark.png);
       }
@@ -283,4 +284,5 @@ text-align: center;
         display: inline;
         vertical-align: middle;
         }
-       }
+  
+
