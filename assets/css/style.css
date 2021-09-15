@@ -147,6 +147,21 @@ text-align: center;
     font-weight: bold;
   }
 
+  .p__portfolio {
+
+    background-color: unset;
+  }
+  .link__portfolio{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding: 1rem;
+  }
+  .link__portfolio:hover {
+    color: #00138C;
+    background-color: #B5FD1D70;
+
+  }
+
   .container__footer {
     align-content: center;
     justify-content: space-evenly;

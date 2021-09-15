@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Arthur GENESTIER">
+    <meta property="og:title" content="Portfolio Arthur GENESTIER" />
+    <meta property="og:type" content="Projet" />
+    <meta property="og:url" content="https://arthur-genestier.000webhostapp.com/" />
+    <meta property="og:image" content="https://arthur-genestier.000webhostapp.com/assets/img/Component%203.svg" />
+    <link rel="icon" type="image/png" href="assets/img/20190803_165331.jpg" />
+
+<link rel="stylesheet" href="assets/css/hover.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>Arthur GENESTIER</title>
+</head>
+<body>
+
+    <header>
+        <div class="skip-link">
+            <a class="skip-to-content-link" href="#a_propos">
+                Aller au contenu
+            </a>
+
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <nav>
+                <ul>
+                    <li><a href="#a_propos">A propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div id="navbar" class="pond">
+        <nav>
+            <ul>
+                <li><a href="#a_propos" class="hvr-shutter-out-vertical"><img src="assets/img/Eye_light.svg" alt="">A propos </a></li>
+                <li><a href="#competences" class="hvr-shutter-out-vertical"><img src="assets/img/Code2.svg" alt="">Compétences</a></li>
+                <li><a href="#portfolio" class="hvr-shutter-out-vertical"><img src="assets/img/happy.svg" alt="">Portfolio</a></li>
+                <li><a href="#contact" class="hvr-shutter-out-vertical"><img src="assets/img/E-mail.svg" alt="">Contact</a></li>
+            </ul>
+        </nav>
+      </div>
+
+
+    </header>
+    <div class="sti animate__animated animate__fadeInRightBig">
+        <span  onclick="openNav()"><img src="assets/img/008-burger-1.svg" alt="Menu" ><p>Menu</p></span>
+    </div>
+
+
+
+
+
+
+<!--
+<div id="nav">
+
+    <ul>
+        <li>
+            <a  target="_blank" href="https://twitter.com/GenestierArthur">
+                <svg class="the-svg icone"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="gradient" d="M19.995 6.68799C20.8914 6.15208 21.5622 5.30823 21.882 4.31399C21.0397 4.81379 20.118 5.16587 19.157 5.35499C17.8246 3.94552 15.7135 3.60251 14.0034 4.51764C12.2933 5.43277 11.4075 7.37948 11.841 9.26999C8.39062 9.09676 5.17598 7.4669 2.99702 4.78599C1.85986 6.74741 2.44097 9.25477 4.32502 10.516C3.64373 10.4941 2.97754 10.3096 2.38202 9.97799C2.38202 9.99599 2.38202 10.014 2.38202 10.032C2.38241 12.0751 3.82239 13.8351 5.82502 14.24C5.19308 14.4119 4.53022 14.4372 3.88702 14.314C4.45022 16.0613 6.06057 17.2583 7.89602 17.294C6.37585 18.4871 4.49849 19.1342 2.56602 19.131C2.22349 19.1315 1.88123 19.1118 1.54102 19.072C3.50341 20.333 5.78739 21.0023 8.12002 21C11.3653 21.0223 14.484 19.7429 16.7787 17.448C19.0734 15.1531 20.3526 12.0342 20.33 8.78899C20.33 8.60299 20.3257 8.41799 20.317 8.23399C21.1575 7.62659 21.8828 6.87414 22.459 6.01199C21.676 6.35905 20.8455 6.58691 19.995 6.68799Z" fill="black"/>
+                    <defs>
+                        <linearGradient id="gradient-example" x1="0" x2="0" y1="62" y2="0" gradientUnits="userSpaceOnUse">
+                        <stop offset="13%" stop-color="black"/>
+                        <stop offset="100%" stop-color="black"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a  target="_blank" href="https://www.linkedin.com/in/arthur-genestier/">
+                <svg class="the-svg1 icone"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="gradient1" d="M13 21H9V9H13V11C13.8526 9.91525 15.1456 9.26857 16.525 9.237C19.0056 9.25077 21.0072 11.2694 21 13.75V21H17V14.25C16.84 13.1326 15.8818 12.3036 14.753 12.306C14.2593 12.3216 13.7932 12.5378 13.4624 12.9046C13.1316 13.2715 12.9646 13.7573 13 14.25V21ZM7 21H3V9H7V21ZM5 7C3.89543 7 3 6.10457 3 5C3 3.89543 3.89543 3 5 3C6.10457 3 7 3.89543 7 5C7 5.53043 6.78929 6.03914 6.41421 6.41421C6.03914 6.78929 5.53043 7 5 7Z" fill="black"/>
+                    <defs>
+                        <linearGradient id="gradient-example1" x1="0" x2="0" y1="62" y2="0" gradientUnits="userSpaceOnUse">
+                        <stop offset="13%" stop-color="black"/>
+                        <stop offset="100%" stop-color="black"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+        </li>
+        <li>
+            <a  target="_blank" href="https://www.instagram.com/art.hur0/">
+                <svg class="the-svg2 icone"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="gradient2" d="M12.002 21.041C9.54195 21.041 9.25195 21.028 8.29195 20.986C7.54332 20.9614 6.80439 20.8092 6.10695 20.536C4.90026 20.0664 3.94609 19.1119 3.47695 17.905C3.21426 17.205 3.07257 16.4655 3.05795 15.718C3.00195 14.76 3.00195 14.446 3.00195 12.005C3.00195 9.538 3.01495 9.25 3.05795 8.295C3.07289 7.54853 3.21457 6.81001 3.47695 6.111C3.94558 4.90253 4.9013 3.94718 6.10995 3.479C6.8086 3.21521 7.5473 3.07315 8.29395 3.059C9.24895 3.005 9.56295 3.005 12.002 3.005C14.482 3.005 14.767 3.018 15.712 3.059C16.4605 3.07327 17.2012 3.21531 17.902 3.479C19.1103 3.94771 20.0658 4.90288 20.535 6.111C20.8021 6.8202 20.9445 7.57026 20.956 8.328C21.012 9.286 21.012 9.59901 21.012 12.039C21.012 14.479 20.998 14.799 20.956 15.746C20.9411 16.4942 20.799 17.2344 20.536 17.935C20.0656 19.1427 19.11 20.0976 17.902 20.567C17.2022 20.8292 16.4631 20.9709 15.716 20.986C14.761 21.041 14.448 21.041 12.002 21.041ZM11.968 4.588C9.52195 4.588 9.26795 4.6 8.31295 4.643C7.74294 4.65056 7.17843 4.75575 6.64395 4.954C5.85471 5.25601 5.23018 5.878 4.92495 6.666C4.72517 7.2063 4.61996 7.77698 4.61395 8.353C4.56095 9.322 4.56095 9.576 4.56095 12.005C4.56095 14.405 4.56995 14.696 4.61395 15.659C4.62291 16.2292 4.72805 16.7938 4.92495 17.329C5.23063 18.1165 5.85505 18.738 6.64395 19.04C7.17807 19.2396 7.7428 19.3448 8.31295 19.351C9.28095 19.407 9.53595 19.407 11.968 19.407C14.421 19.407 14.675 19.395 15.622 19.351C16.1924 19.3441 16.7573 19.2389 17.292 19.04C18.0764 18.7354 18.6969 18.1153 19.002 17.331C19.2014 16.7903 19.3065 16.2193 19.313 15.643H19.324C19.367 14.687 19.367 14.432 19.367 11.989C19.367 9.54601 19.356 9.289 19.313 8.334C19.304 7.76446 19.1988 7.20052 19.002 6.666C18.6976 5.88058 18.077 5.2593 17.292 4.954C16.7574 4.75475 16.1924 4.64953 15.622 4.643C14.655 4.588 14.402 4.588 11.968 4.588ZM12.002 16.624C10.1319 16.6252 8.44537 15.4997 7.72882 13.7725C7.01226 12.0452 7.40686 10.0563 8.72858 8.73347C10.0503 7.4106 12.0388 7.01428 13.7667 7.72934C15.4946 8.4444 16.6215 10.13 16.622 12C16.6192 14.5511 14.553 16.619 12.002 16.624ZM12.002 8.998C10.3451 8.998 9.00195 10.3412 9.00195 11.998C9.00195 13.6549 10.3451 14.998 12.002 14.998C13.6588 14.998 15.002 13.6549 15.002 11.998C14.9981 10.3427 13.6572 9.00185 12.002 8.998ZM16.802 8.28501C16.2074 8.2828 15.7269 7.79959 15.728 7.20501C15.7291 6.61043 16.2114 6.12901 16.806 6.12901C17.4005 6.12901 17.8828 6.61042 17.884 7.205C17.8842 7.49187 17.7702 7.76703 17.5672 7.96968C17.3642 8.17234 17.0888 8.2858 16.802 8.28501Z" fill="black"/>
+
+                    <defs>
+                        <linearGradient id="gradient-example2" x1="0" x2="0" y1="62" y2="0" gradientUnits="userSpaceOnUse">
+                        <stop offset="13%" stop-color="black"/>
+                        <stop offset="100%" stop-color="black"/>
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </a>
+        </li>
+
+    </ul>
+
+
+
+</div> -->
+
+
+
+
+    <main role="main">
+        <img class="frame1 animate__animated animate__bounceInLeft " src="assets/img/Frame 76.svg" alt="">
+
+        <section>
+            <h1 class="animate__animated animate__backInDown">Arthur GENESTIER</h1>
+            <h2 class="animate__animated animate__backInDown">Intégrateur/ Dévelopeur Frontend</h2>
+
+        </section>
+
+
+        <section id="a_propos" class="a_propos ">
+        <h2>A propos</h2>
+        <div class="pond">
+            <img src="assets/img/20190803_165331.jpg" alt="photo d'arthur genestier" class="profil">
+            <div class="text_profil">
+                <p>
+                  D'un naturel très curieux et volontaire, ajouté à un cursus atypique, mon profil est une réelle force aujourd'hui.<br>
+                  J'ai obtenu le Bac STI en 2009. J'étudie par la suite la Géographie à l'université Paris Diderot.<br>
+                  En parallèle de mes études, j'étais livreur, puis assistant manager en restauration rapide. J'ai apprécié travailler au contact de la clientèle,
+                  gérer mon équipe ainsi que développer la marque.<br>
+                  Depuis toujours attiré par le développement web, et les nouvelles technologies, j'ai ensuite décidé de me réoritenté professionnellement.
+                  je me suis motivé et enthousiasmé à suivre une formation d'intégrateur/développeur front-end. Doté d'une solide base théorique et pratique,
+                  j'ai accompli ce nouveau challenge avec succès et me suis pris de passion pour ce métier.<br>
+                  Fin prêt pour commencer cette nouvelle vie qui m'attend, je vous attends avec impatience pour vous accompagner dans vos projets.
+             </p>
+            </div>
+
+                <!--
+                <a target="_blank" href="assets/CV arthur genetier.pdf"><div class="btn" >Liens vers mon CV en pdf</div></a>
+                -->
+
+
+
+
+
+        </section>
+        <div class="wrapper">
+            <a class="cta" target="_blank" href="assets/CV arthur genetier.pdf">
+              <span>Liens vers mon CV en pdf</span>
+              <span>
+                <svg width="33px" height="21px" viewBox="0 0 66 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g id="arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <path class="one" d="M40.1543933,3.89485454 L43.9763149,0.139296592 C44.1708311,-0.0518420739 44.4826329,-0.0518571125 44.6771675,0.139262789 L65.6916134,20.7848311 C66.0855801,21.1718824 66.0911863,21.8050225 65.704135,22.1989893 C65.7000188,22.2031791 65.6958657,22.2073326 65.6916762,22.2114492 L44.677098,42.8607841 C44.4825957,43.0519059 44.1708242,43.0519358 43.9762853,42.8608513 L40.1545186,39.1069479 C39.9575152,38.9134427 39.9546793,38.5968729 40.1481845,38.3998695 C40.1502893,38.3977268 40.1524132,38.395603 40.1545562,38.3934985 L56.9937789,21.8567812 C57.1908028,21.6632968 57.193672,21.3467273 57.0001876,21.1497035 C56.9980647,21.1475418 56.9959223,21.1453995 56.9937605,21.1432767 L40.1545208,4.60825197 C39.9574869,4.41477773 39.9546013,4.09820839 40.1480756,3.90117456 C40.1501626,3.89904911 40.1522686,3.89694235 40.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                    <path class="two" d="M20.1543933,3.89485454 L23.9763149,0.139296592 C24.1708311,-0.0518420739 24.4826329,-0.0518571125 24.6771675,0.139262789 L45.6916134,20.7848311 C46.0855801,21.1718824 46.0911863,21.8050225 45.704135,22.1989893 C45.7000188,22.2031791 45.6958657,22.2073326 45.6916762,22.2114492 L24.677098,42.8607841 C24.4825957,43.0519059 24.1708242,43.0519358 23.9762853,42.8608513 L20.1545186,39.1069479 C19.9575152,38.9134427 19.9546793,38.5968729 20.1481845,38.3998695 C20.1502893,38.3977268 20.1524132,38.395603 20.1545562,38.3934985 L36.9937789,21.8567812 C37.1908028,21.6632968 37.193672,21.3467273 37.0001876,21.1497035 C36.9980647,21.1475418 36.9959223,21.1453995 36.9937605,21.1432767 L20.1545208,4.60825197 C19.9574869,4.41477773 19.9546013,4.09820839 20.1480756,3.90117456 C20.1501626,3.89904911 20.1522686,3.89694235 20.1543933,3.89485454 Z" fill="#FFFFFF"></path>
+                    <path class="three" d="M0.154393339,3.89485454 L3.97631488,0.139296592 C4.17083111,-0.0518420739 4.48263286,-0.0518571125 4.67716753,0.139262789 L25.6916134,20.7848311 C26.0855801,21.1718824 26.0911863,21.8050225 25.704135,22.1989893 C25.7000188,22.2031791 25.6958657,22.2073326 25.6916762,22.2114492 L4.67709797,42.8607841 C4.48259567,43.0519059 4.17082418,43.0519358 3.97628526,42.8608513 L0.154518591,39.1069479 C-0.0424848215,38.9134427 -0.0453206733,38.5968729 0.148184538,38.3998695 C0.150289256,38.3977268 0.152413239,38.395603 0.154556228,38.3934985 L16.9937789,21.8567812 C17.1908028,21.6632968 17.193672,21.3467273 17.0001876,21.1497035 C16.9980647,21.1475418 16.9959223,21.1453995 16.9937605,21.1432767 L0.15452076,4.60825197 C-0.0425130651,4.41477773 -0.0453986756,4.09820839 0.148075568,3.90117456 C0.150162624,3.89904911 0.152268631,3.89694235 0.154393339,3.89485454 Z" fill="#FFFFFF"></path>
+                  </g>
+                </svg>
+              </span>
+            </a>
+          </div>
+    </div>
+</div>
+<img class="frame3 animate__animated animate__bounceInRight animate__delay-3s " src="assets/img/Frame 7.svg" alt="">
+        <section id="competences" class="competences">
+            <h2>Compétences</h2>
+            <div class="pond">
+                <div class="card_competence">
+                    <ul>
+                        <li><img class="icone" src="assets/img/code.svg" alt=""></li>
+                        <li>HTML</li>
+                        <li>CSS/Sass</li>
+                        <li>JavaScript</li>
+                        <li>PHP</li>
+                        <li>WordPress</li>
+                    </ul>
+                </div>
+                <div class="card_competence">
+                    <ul>
+                        <li><img class="icone" src="assets/img/trending_up.svg" alt=""></li>
+                        <li>Accessibilité</li>
+                        <li>Responsive Design</li>
+                        <li>Maquettes d'armatures</li>
+                        <li>SEO</li>
+                    </ul>
+                </div>
+                <div class="card_competence">
+                    <ul>
+                        <li><img class="icone" src="assets/img/heart_outline.svg" alt=""></li>
+                        <li>Travail en équipe</li>
+                        <li>Gestion de projet</li>
+                        <li>Autonome</li>
+                        <li>Créativité</li>
+                        <li>Organisé</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Derniers projets</h2>
+            <div class="pond">
+                <!--
+                <div class="text_profil">
+                    <p>Projet realisé en fin de formation, thème WordPress (site vitrine) pour un groupe de musique</p>
+                </div>
+                <a href="https://projeta11yboys.000webhostapp.com/"><img src="assets/2021-07-21_11h52_04.png" alt="screenshot site A11yBoys" class="portfolio_image"></a>
+                -->
+                <div class="flip-card">
+
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="assets/img/2021-07-29_13h34_58.png" alt="Screen du site" >
+                      </div>
+                      <div class="flip-card-back ">
+                        <a  target="_blank" href="Restaurant v1/index.html">
+                        <h3>Template Restaurant</h3>
+                    </a>
+                        <p>Site vitrine pour restaurant</p>
+                      </div>
+                    </div>
+
+                </div>
+
+                <div class="flip-card">
+
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="assets/img/2021-07-21_11h52_04.png" alt="Screen du site" >
+                      </div>
+                      <div class="flip-card-back ">
+                        <a  target="_blank" href="https://projeta11yboys.000webhostapp.com/">
+                        <h3>A11yBoys</h3>
+                    </a>
+                        <p>Projet realisé en fin de formation, thème WordPress (site vitrine) pour un groupe de musique</p>
+                      </div>
+                    </div>
+
+                </div>
+
+                <div class="flip-card">
+
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="assets/img/2021-07-22_11h04_32.png" alt="Screen du site" >
+                      </div>
+                      <div class="flip-card-back ">
+                        <a  target="_blank" href="index.html">
+                        <h3>Portfolio</h3>
+                    </a>
+                        <p>Le site que vous visitez en ce moment</p>
+                      </div>
+                    </div>
+
+                </div>
+
+                <div class="flip-card">
+
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="assets/img/code-820275_640.jpg" alt="Screen du site" >
+                      </div>
+                      <div class="flip-card-back ">
+                        <a  target="_blank" href="https://youtu.be/q2Xp4tefDyc?t=32">
+                        <h3>Votre projet ?</h3>
+                    </a>
+                        <p>Toujours pret a commencer un nouveau projet</p>
+                      </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <img class="frame2 animate__animated animate__bounceInLeft animate__delay-5s" src="assets/img/Frame 91.svg" alt="">
+        <footer role="contentinfo" id="contact">
+
+            <h2>Contact</h2>
+
+        <div class="card_competence">
+
+            <div class="follow">
+              <div class="icon first"><a href="https://twitter.com/GenestierArthur"><img src="assets/img/twitter.svg" alt="twitter"></a></div>
+              <div class="icon"><a href="https://www.linkedin.com/in/arthur-genestier/"><img src="assets/img/LinkedIn.svg" alt="LinkedIn"></a></div>
+              <div class="icon"><a href="https://www.instagram.com/art.hur0/"><img src="assets/img/instagram.svg" alt="instagram"></a></div>
+              <div class="label">Réseaux sociaux</div>
+            </div>
+            <div class="pond">
+                <div class="card_competence">
+                    <h3>Adresse</h3>
+                    <p>7 passage Boulay<br>75017<br>Paris</p>
+                </div>
+                <div class="card_competence">
+                    <h3>Email </h3>
+
+                    <a  target="_blank" href="mailto:genestier.arthur@gmail.com"><img src="assets/img/mail.svg" alt="email">                    <p>genestier.arthur@gmail.com</p></a>
+
+                </div>
+                <div class="card_competence">
+                    <h3>Téléphone</h3>
+                    <a  target="_blank" href="tel:+33625265151"><img src="assets/img/phone_outline.svg" alt="telephone"><p>06.25.26.51.51</p></a>
+                </div>
+
+           <!--
+                <div class="card_competence">
+                        <h3>Réseaux sociaux</h3>
+                    <ul>
+                        <li></li>
+                        <li><a href="https://www.linkedin.com/in/arthur-genestier/"><span>LinkedIn</span></a></li>
+                        <li><a href="https://www.instagram.com/art.hur0/"><img src="assets/img/instagram.svg" alt="instagram"><span>Instagram</span></a></li>
+                    </ul>
+                </div>
+
+                -->
+            </div>
+
+
+        </div>
+
+
+
+            </footer>
+
+
+<script src="java.js"></script>
+</body>
+</html>
