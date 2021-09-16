@@ -66,6 +66,12 @@ body {
 
   }
 
+  .hand {
+    width: 10rem;
+    position: relative;
+    bottom: 3rem;
+    left: -10rem;
+  }
 
 
 
@@ -147,15 +153,9 @@ text-align: center;
 
 
 
-.cta {
-  height: 10rem;
-  
-}
-
-
 .cta img {
   position: relative;
-  top: 2rem;
+  bottom: 3rem;
   right: 5rem;
   width: 17rem;
 }
@@ -178,7 +178,6 @@ text-align: center;
 
   .competences img {
     width: 10rem;
-    margin: 1rem;
   }
 
   .competences li {
@@ -298,7 +297,12 @@ text-align: center;
         background-image: url(../img/BGdark.png);
         
       }
-      .dark .cta{
+      .dark a,
+      .dark li {
+        color: white;
+      }
+      .dark .cta,
+      .dark .hand{
         filter: invert(96%) sepia(61%) saturate(2%) hue-rotate(314deg) brightness(105%) contrast(101%);
       }
 
@@ -310,6 +314,15 @@ text-align: center;
       .dark .h2{
         border-bottom: solid black 0.4rem;
       }
+      .dark .skip {
+        display: block;
+        width: 100%;
+        background-color: #00138C;
+        color: #00138C;
+        font-family: 'PT Sans', sans-serif;
+        font-size: small;
+        height: 0;
+      }
 
       #darkTrigger {
         background: #00138C;
@@ -319,7 +332,9 @@ text-align: center;
         display: inline;
         vertical-align: middle;
        }
-       
+       #darkTrigger img {
+       width: 2rem;
+       }
        .theme p {
         text-transform: unset;
         padding: 0;
