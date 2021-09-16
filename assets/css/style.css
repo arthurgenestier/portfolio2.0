@@ -51,7 +51,8 @@ padding: 1rem;
     margin: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    border: black solid 0.4rem;;
+    border: black solid 0.4rem;
+
   }
 
 
@@ -107,9 +108,13 @@ text-align: center;
 
   .main {
     min-width: 1rem;
-    border-left: black solid 0.4rem;
     width: 67%
     }
+
+    .profil {
+      border-bottom: solid black 0.4rem;
+      border-left: black solid 0.4rem;
+      }
   
   p{
     font-family: 'PT Sans', sans-serif;
@@ -119,6 +124,21 @@ text-align: center;
     background-color: #FCB8FF70;
     line-height: initial;
   }
+
+
+
+.cta {
+  height: 10rem;
+  
+}
+
+
+.cta img {
+  position: relative;
+  top: 2rem;
+  right: 5rem;
+}
+  
 
   .cards {
     text-align: center;
@@ -214,15 +234,23 @@ text-align: center;
     @media (min-width: 1024px) {
       .main {
         margin: 5rem;
-        border: solid 0.4rem;
         }
         main {
         border-left: 0;
         }
+        .profil {
+          border: black solid 0.4rem;
+          }
         .nav {
           margin: 5rem;
           border: solid 0.4rem;
           }
+
+          .cta img {
+            top: 4rem;
+            right: 8rem;
+            }
+
         .container__header {
           display: flex;
           flex-flow: row nowrap;
@@ -255,6 +283,10 @@ text-align: center;
 
       .dark {
         background-image: url(../img/BGdark.png);
+        
+      }
+      .dark .cta{
+        filter: invert(96%) sepia(61%) saturate(2%) hue-rotate(314deg) brightness(105%) contrast(101%);
       }
 
       .dark p,
