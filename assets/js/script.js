@@ -6,3 +6,4 @@ $("#darkTrigger").click(function(){
         $("body").addClass("dark");
     }
 });
+

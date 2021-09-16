@@ -1,5 +1,9 @@
+.cursor {
+  cursor:url(./cursor-crayon-gray.svg), auto;
+}
+
 body {
-border: solid black 0.4rem;
+    border: solid black 0.4rem;
     background-image: url(../img/BG.png);
 }
 
@@ -9,20 +13,29 @@ border: solid black 0.4rem;
     text-transform: uppercase;
     border-bottom: solid 0.4rem black;
     text-align: end;
+  }
 
+  .skip {
+    display: block;
+    width: 100%;
+    background-color: #00138C;
+    color: #00138C;
+    font-family: 'PT Sans', sans-serif;
+    font-size: small;
+    height: 0;
   }
 
   h1,
-  h2,h3 {
+  h2,
+  h3 {
     margin: 0;
     text-align: center;
     font-family: 'Days One', sans-serif;
   }
 
   .h2 {
-
-border-bottom: solid 0.4rem;
-padding: 1rem;
+    border-bottom: solid 0.4rem;
+    padding: 1rem;
   }
 
   
@@ -72,6 +85,8 @@ padding: 1rem;
     border-bottom: black solid 0.4rem;;
     font-family: 'Russo One', sans-serif;
     width: 33%;
+    border-right: solid 0.4rem;
+    margin-right: 0.4rem;
   }
 
 
@@ -125,6 +140,13 @@ text-align: center;
     line-height: initial;
   }
 
+  .main__icon {
+    width: 4rem;
+    display: block;
+    margin: auto;
+    padding: 1rem;
+  }
+
 
 
 .cta {
@@ -137,6 +159,7 @@ text-align: center;
   position: relative;
   top: 2rem;
   right: 5rem;
+  width: 17rem;
 }
   
 
@@ -152,6 +175,7 @@ text-align: center;
     margin: 1rem;
     border: solid 0.4rem;
     padding-bottom: 1rem;
+    margin-left: 0;
   }
 
   .competences img {
@@ -203,13 +227,6 @@ text-align: center;
 
   }
 
-  .footer__mail > a:nth-child(2) > img:nth-child(1) {
-    width: 5rem;
-   }
-
-   .footer__phone > a:nth-child(2) > img:nth-child(1) {
-    width: 5rem;
-   }
 
    .footer__mail {
     text-align: center;
@@ -223,12 +240,10 @@ text-align: center;
     text-align: center;
     }
 
-    .footer__follow img {
-      margin: 1rem;
-    }
-
-    .footer__follow img:hover {
-      color: #B5FD1D;
+    .footer__icon {
+      width: 2rem;
+      margin: 0.5rem;
+      filter: invert(96%) sepia(61%) saturate(2%) hue-rotate(314deg) brightness(105%) contrast(101%);
     }
 
     @media (min-width: 1024px) {
