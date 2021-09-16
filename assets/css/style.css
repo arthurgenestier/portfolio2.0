@@ -73,6 +73,10 @@ body {
     left: -10rem;
   }
 
+  .hand2 {
+    display: none;
+  }
+
 
 
   .container {
@@ -157,7 +161,7 @@ text-align: center;
   position: relative;
   bottom: 3rem;
   right: 5rem;
-  width: 17rem;
+  width: 14rem;
 }
   
 
@@ -192,6 +196,11 @@ text-align: center;
 
     background-color: unset;
   }
+
+  .screenshot {
+    margin-top: 1rem;
+    border: solid black 0.4rem;
+  }
   .link__portfolio{
     margin-right: 1rem;
     margin-left: 1rem;
@@ -199,7 +208,7 @@ text-align: center;
   }
   .link__portfolio:hover {
     color: #00138C;
-    background-color: #B5FD1D70;
+    background-color: #ffffff70;
 
   }
 
@@ -259,9 +268,21 @@ text-align: center;
           }
 
           .cta img {
-            top: 4rem;
             right: 8rem;
+            width: 30rem;
             }
+            .hand {
+              bottom: 10rem;
+              left: -20rem;
+            }
+            .hand2{
+              display: unset;
+              width: 10rem;
+              position: absolute;
+              top: 30rem;
+            left: 17rem;
+            }
+
 
         .container__header {
           display: flex;
@@ -302,7 +323,8 @@ text-align: center;
         color: white;
       }
       .dark .cta,
-      .dark .hand{
+      .dark .hand,
+      .dark .hand2{
         filter: invert(96%) sepia(61%) saturate(2%) hue-rotate(314deg) brightness(105%) contrast(101%);
       }
 
