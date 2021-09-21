@@ -212,6 +212,11 @@ text-align: center;
 
   }
 
+  .github__logo {
+    border: none;
+    margin-top: 1rem;
+  }
+
   .container__footer {
     align-content: center;
     justify-content: space-evenly;
